@@ -16,9 +16,15 @@ El red_neuronal_artificial_ml.py utiliza la biblioteca Qiskit para implementar u
 # requerimientos
 
 pip install qiskit-machine-learning
+
 pip install matplotlib
+
 pip install pylatexenc
+
 pip install pyqt5
+
+pip install pennylane
+
 
 # Ejecución
 py .\clasificacion.py
