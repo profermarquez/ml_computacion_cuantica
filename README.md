@@ -5,12 +5,14 @@ El clasificacion.py implementa clasificadores cuánticos utilizando Qiskit Machi
 
 El red_neuronal_artificial_ml.py utiliza la biblioteca Qiskit para implementar un clasificador cuántico variacional (VQC). Primero, se establece una semilla para la reproducibilidad y se cargan datos de un conjunto ad hoc, dividiéndolos en características y etiquetas para entrenamiento y prueba. Luego, se define un mapa de características cuántico (ZZFeatureMap) y un ansatz (TwoLocal), que representan el estado inicial y las operaciones cuánticas a aplicar. El clasificador VQC se crea combinando estos elementos junto con el optimizador COBYLA para ajustar los parámetros. Finalmente, el modelo se entrena con los datos de entrenamiento y se evalúa con los datos de prueba, mostrando la precisión obtenida.
 
-
+El tercer archivo es un intento de regresión lineal.
 
 # Crear y activar el entorno virtual
 
 /virtualenv env
+
 /virtualenv -p "C:\Archivos de programas\python310\python.exe" env # para python con otra version
+
 /env/Scripts/activate.bat
 
 # requerimientos
